@@ -1,0 +1,25 @@
+From 411014e3b619dc486801ab2b6f044e0879bba584 Mon Sep 17 00:00:00 2001
+From: Vikramnarasimhan <vikram.narasimhan@psiog.com>
+Date: Fri, 26 Sep 2025 14:50:06 +0530
+Subject: [PATCH] ok this is my bisect operation trying to conflict
+
+---
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/index.html b/index.html
+index 870e7be..1308853 100644
+--- a/index.html
++++ b/index.html
+@@ -9,7 +9,7 @@
+     I am now demonstrating staging.
+     Just introducing a commit to cherry pick.
+     Going back.
+-    OK let me try out bisecting.
++    OK let me try out bisecting.I am trying to conflict. 
+ 
+   </p> 
+   <footer>Introducing footer in the firstbranch</footer>
+-- 
+2.50.1.windows.1
+
